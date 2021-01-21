@@ -21,7 +21,17 @@ body {
 
 p {
   font-family: "Bodoni Moda", "serif";
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.reverse-p {
+  transform: scale(1, -1);
+  color: #8ebf42;
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
 }
 
 .diamond {
