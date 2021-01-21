@@ -1,1 +1,72 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: url(https://api.time.com/wp-content/uploads/2019/07/facebook-texas-holdem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.background-image-card {
+  background-image: url(https://static.wixstatic.com/media/e2284c_bf922b3c09c9451e8d430bcd17ca841a~mv2.png);
+  background-repeat: no-repeat;
+  background-size: 15rem;
+  background-position: center;
+}
+
+p {
+  font-family: "Bodoni Moda", "serif";
+  font-size: 3rem;
+}
+
+.diamond {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: red;
+}
+.diamond:before {
+  content: "\2666";
+}
+
+.heart {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: red;
+}
+.heart:before {
+  content: "\2665";
+}
+
+.club {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.club:before {
+  content: "\2663";
+}
+
+.spade {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.spade:before {
+  content: "\2660";
+}
+
+.myImg {
+  width: 10rem;
+  height: 10rem;
+}
