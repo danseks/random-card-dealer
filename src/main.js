@@ -27,19 +27,18 @@ window.onload = function() {
       "Q",
       "K"
     ];
-
+    let randomNumbers = Math.floor(Math.random() * arrayNumbers.length);
     //REMOVE IMAGE
     let getIMG = document.querySelector("#img");
     // console.log(getIMG);
     getIMG.classList.remove("background-image-card");
     //SUIT1
-    let randomNumbers = Math.floor(Math.random() * arrayNumbers.length);
     let getSuit = document.querySelector("#suit1");
-    getSuit.classList.remove(arraySuits[randomSuits]);
+    getSuit.classList.remove("heart", "diamond", "spade", "club");
     getSuit.classList.add(arraySuits[randomSuits]);
     //SUIT2
     let getSuit2 = document.querySelector("#suit2");
-    getSuit2.classList.remove(arraySuits[randomSuits]);
+    getSuit2.classList.remove("heart", "diamond", "spade", "club");
     getSuit2.classList.add(arraySuits[randomSuits]);
     //NUMBER
     let getIdNumber = document.querySelector("#number");
